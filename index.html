@@ -8,42 +8,50 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
-        <div class="instructions_area">
-            <div class="instructions_title"><span>Quiz Instructions</span></div>
-            <div class="instructions_list">
-                <div class="instructions">You will have 100 seconds to complete the quiz</div>
-                <div class="instructions">Once you select your answer you will immediately see if it's correct</div>
-                <div class="instructions">For each incorrect answer 10 seconds will be deducted from the timer</div>
-                <div class="instructions">Your final score will be based on the remaining time after you've answered the final question</div>
+        <header>
+            <div class="instructions_area">
+                <div class="instructions_title"><span>Quiz Instructions</span></div>
+                <div class="instructions_list">
+                    <div class="instructions">You will have 100 seconds to complete the quiz</div>
+                    <div class="instructions">Once you select your answer you will immediately see if it's correct</div>
+                    <div class="instructions">For each incorrect answer 10 seconds will be deducted from the timer</div>
+                    <div class="instructions">Your final score will be based on the remaining time after you've answered the final question</div>
+                </div>
             </div>
-        </div>
-        <div class="start_btn"><button>Start Quiz</button></div>
-        <div class="quiz">
-            <header>
-                <div class="title">JS Quiz</div>
-                <div class="timer">
-                    <div class="time_remaining">Time Remaining</div>
-                    <div class="timer_sec">100</div>
-                </div>
-            </header>
+            <div class="start_btn"><button>Start Quiz</button></div>
+        </header>
+        <main>
             <section>
-                <div class="question_text">
-                    <!>
-                </div>
-                <div class="options_text">
-                    <!>
+                <div class="quiz_overview">
+                    <div class="quiz_title">JS Quiz</div>
+                    <div class="quiz_timer">
+                        <div class="time_remaining">Time Remaining:</div>
+                        <div class="timer_sec">100</div>
+                    </div>
                 </div>
             </section>
-            <footer>
-                <button class="next_btn">Next</button>
-                <div class="final_score">
-                    <!>
+            <section>
+                <div class="quiz_questions">
+                    <div class="question_text">
+                        <!>
+                    </div>
+                    <div class="options_text">
+                        <!>
+                    </div>
                 </div>
-                <button class="restart">Try Again</button>
-                <button class="submit_score">Submit Score</button>
-                <div class="enter_initials">Enter Your Initials: <textarea> </textarea></div>
-            </footer>
-        </div>
+            </section>
+            <section>
+                <div class="next_score">
+                    <button class="next_btn">Next</button>
+                    <div class="final_score">
+                        <!>
+                    </div>
+                    <button class="restart">Try Again</button>
+                    <button class="submit_score">Submit Score</button>
+                    <div class="enter_initials">Enter Your Initials: <textarea> </textarea></div>
+                </div>
+            </section>
+        </main>
         <script src="assets/js/script.js"></script>
     </body>
 </html>
